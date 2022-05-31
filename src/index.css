@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer base{
+    body{
+        @apply bg-black
+    }
     li{
-        @apply p-4
+        @apply p-4 text-xl font-normal text-white
     }
 }
