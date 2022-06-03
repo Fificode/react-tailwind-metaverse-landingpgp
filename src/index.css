@@ -4,7 +4,7 @@
 
 @layer base{
    body{
-       @apply bg-blue-black
+       @apply bg-blue-black box-border
    }
     li{
         @apply p-4 text-xl font-normal text-white cursor-pointer tracking-[0.02em]

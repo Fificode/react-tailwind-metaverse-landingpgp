@@ -21,14 +21,14 @@ const Header = () => {
        </div>
        <h2 className='font-bold text-white text-[104px] tracking-[0.02em] capitalize leading-[120px] large:text-[85px] smaller:text-[60px]'>METAVERSE</h2>
       <div className='flex flex-row'> <h2 className='font-bold text-white text-[104px] tracking-[0.02em] capitalize large:text-[85px] smaller:text-[60px]'>MA</h2>
-      <img src={letterd} alt="Capital Letter D" className='w-[136px] h-[80px] large:w-[90px]h-[50px] smaller:w-[50px]h-[20px]'/>
+      <img src={letterd} alt="Capital Letter D" className=' smaller:w-[50px]h-[20px] inline w-[136px] h-[80px] translate-y-11'/>
      <h2 className='font-bold text-white text-[104px] tracking-[0.02em] capitalize large:text-[85px] smaller:text-[60px]'>NESS</h2>
      </div>
      <p className='text-white text-xl font-normal'>We provide the best service for your company products in real world and the Meta-world</p>
      <div className="flex flex-row mt-[20px]">
        <button className='text-black px-[40px] py-[15px] bg-blue-btn rounded-[10px] text-[20px] smaller:px-[20px]py-[5px]text-[13px]'>Get Started</button>
-       <div className='rounded-[50%] text-white mx-[60px]'>
-         <img src={playbtn} alt="Play button" />
+       <div className='border-[1px] border-solid  border-white rounded-[50%] w-[50px] h-[50px] mx-[60px]'>
+         <img src={playbtn} alt="Play button" className='translate-x-4 translate-y-3' />
        </div>
        <p className='text-white font-[600] text-[20px]'>See Demo</p>
      </div>
