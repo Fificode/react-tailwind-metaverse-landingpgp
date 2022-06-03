@@ -7,6 +7,6 @@
        @apply bg-blue-black
    }
     li{
-        @apply p-4 text-xl font-normal text-white cursor-pointer
+        @apply p-4 text-xl font-normal text-white cursor-pointer tracking-[0.02em]
     }
 }
