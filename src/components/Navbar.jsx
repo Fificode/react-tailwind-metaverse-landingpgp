@@ -28,14 +28,14 @@ const handleClick = () => setNav(!nav);
 </div>
 </div>
 
-<ul className={!nav ? 'hidden' : 'absolute w-full h-[400px] px-5 mt-[50px] bg-blue-black md:h-[280px]'}>
+<ul className={!nav ? 'hidden' : 'absolute w-full h-[400px]  mt-[50px] bg-blue-black animate-slide_fwd_center md:h-[280px]'}>
 <li className='w-full'>Home</li>
 <li className='w-full'>How it works</li>
 <li className='w-full'>Event</li>
 <li className='w-full'>Market place</li>
 <div className= 'flex flex-col md:hidden'>
     <button className='pl-[18px] text-xl font-normal text-white bg-transparent text-left py-4'>Sign In</button>
-    <button className='px-[30px] py-[10px] rounded-[10px] bg-blue-btn text-xl text-black'>Sign Up</button>
+    <button className='px-[30px] py-[10px] rounded-[10px] bg-blue-btn text-xl text-black mr-5'>Sign Up</button>
 </div>
 </ul>
     </div>

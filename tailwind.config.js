@@ -1,6 +1,17 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
+    extend: {
+      keyframes:{
+        slide_fwd_center:{
+          '0%' : { transform: 'translateZ(0)'},
+'100%': {transform: 'translateZ(160px)'},
+      }
+      },
+      animation: {
+slide_fwd_center: 'slide_fwd_center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+      }
+    },
     colors: {
       'blue-black': '#02090F',
       'white': '#ffffff',
@@ -26,5 +37,6 @@ module.exports = {
       '2xl': '1536px',
     },
   },
+  
   plugins: [],
 }

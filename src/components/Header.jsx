@@ -21,7 +21,7 @@ const Header = () => {
        </div>
        <h2 className='font-bold text-white tracking-[0.02em] capitalize text-[40px] leading-[80px] msmaller:text-[60px] md:text-[85px] md:leading-[120px] xlarge:text-[104px]'>METAVERSE</h2>
       <div className='flex flex-row'> <h2 className='font-bold text-white text-[40px] tracking-[0.02em] capitalize msmaller:text-[60px] md:text-[85px] xlarge:text-[104px]'>MA</h2>
-      <img src={letterd} alt="Capital Letter D" className='w-[50px] h-[35px] translate-y-4 pl-[2px] inline mmsmall:w-[50px] mmsmall:h-[35px] mmsmall:translate-y-[13px] msmall:w-[60px] msmall:h-[35px] msmall:translate-y-[14px] md:w-[110px] md:h-[65px] md:translate-y-9 xlarge:w-[126px] xlarge:[100px] xlarge:translate-y-14'/>
+      <img src={letterd} alt="Capital Letter D" className='w-[45px] h-[31px] msmaller:w-[55px] msmaller:h-[45px] msmaller:translate-y-[24px] translate-y-4 pl-[2px] inline mmsmall:w-[50px] mmsmall:h-[35px] mmsmall:translate-y-[13px] msmall:w-[60px] msmall:h-[35px] msmall:translate-y-[14px] md:w-[110px] md:h-[65px] md:translate-y-9 xlarge:w-[126px] xlarge:[100px] xlarge:translate-y-14'/>
      <h2 className='font-bold text-white text-[40px] tracking-[0.02em] capitalize msmaller:text-[60px] md:text-[85px] xlarge:text-[104px]'>NESS</h2>
      </div>
      <p className='text-white text-[17px] font-normal md:[20px]'>We provide the best service for your company products in real world and the Meta-world</p>
@@ -33,7 +33,7 @@ const Header = () => {
        <p className='text-white font-[600] text-[14px] translate-y-3 msmaller:text-[17px] md:text-[20px]'>See Demo</p>
      </div>
       </div>
-      <div className="flex justify-center items-center flex-1 mt-[40px] mx-[30px]">
+      <div className="flex justify-center items-center flex-1 my-[20px] lg:mt-[40px] lg:mx-[30px]">
         <img src={landingimage} alt="Landing page" className='w-[100%] h-[100%]'/>
       </div>
     </div>
