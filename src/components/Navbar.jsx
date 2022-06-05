@@ -28,7 +28,7 @@ const handleClick = () => setNav(!nav);
 </div>
 </div>
 
-<ul className={!nav ? 'hidden' : 'absolute w-full h-[400px]  mt-[50px] bg-blue-black animate-slide_fwd_center md:h-[280px]'}>
+<ul className={!nav ? 'hidden' : 'absolute w-full h-[400px]  mt-[50px] bg-blue-black animate-scale_up_tr md:h-[280px]'}>
 <li className='w-full'>Home</li>
 <li className='w-full'>How it works</li>
 <li className='w-full'>Event</li>
