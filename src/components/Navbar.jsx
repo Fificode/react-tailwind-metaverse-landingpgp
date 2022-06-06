@@ -33,7 +33,7 @@ const handleClick = () => setNav(!nav);
 <li className='w-full'>How it works</li>
 <li className='w-full'>Event</li>
 <li className='w-full'>Market place</li>
-<div className= 'flex flex-col md:hidden'>
+<div className= 'flex flex-col lsmall:hidden'>
     <button className='pl-[18px] text-xl font-normal text-white bg-transparent text-left py-4'>Sign In</button>
     <button className='px-[30px] py-[10px] rounded-[10px] bg-blue-btn text-xl text-black mr-5'>Sign Up</button>
 </div>
