@@ -33,7 +33,7 @@ const Header = () => {
        <p className='text-white font-[600] text-[14px] translate-y-3 msmaller:text-[17px] md:text-[20px]'>See Demo</p>
      </div>
       </div>
-      <div className="flex justify-center items-center flex-1 my-[20px] lg:mt-[40px] lg:mx-[30px]">
+      <div className="flex justify-center items-center flex-1 my-[20px] mx-[30px] lg:mt-[60px]">
         <img src={landingimage} alt="Landing page" className='w-[100%] h-[100%]'/>
       </div>
     </div>
