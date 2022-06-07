@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
     <div className='flex flex-row xmedium:flex-col'>
-      <div className="flex items-start justify-center flex-1 flex-col mx-[15px] mt-[40px] large:mt-[150px] sm:mx-[30px]">
+      <div className="flex items-start justify-center flex-1 flex-col mx-[15px] large:mt-[150px] sm:mx-[30px]">
        <div className="flex flex-row"> 
        <h1 className="text-white text-[14px] font-normal msmaller:text-[17px] md:text-[20px]">Trendy & Amazing Features</h1>
        <hr className='text-white w-[40px] mx-3 translate-y-4'/>
